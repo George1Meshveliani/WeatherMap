@@ -1,0 +1,6 @@
+weather_map.content:
+  path: '/weather-map'
+  defaults:
+    _controller: '\Drupal\weather_map\Controller\WeatherMapController::content'
+  requirements:
+    _access: 'TRUE'

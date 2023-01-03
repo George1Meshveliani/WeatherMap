@@ -1,0 +1,9 @@
+name: weather_map
+type: module
+description: WeatherMap module gives us opportunity to get weather forecast of any location.
+package: WM
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - weather_map/wm-library
+base theme: stable
